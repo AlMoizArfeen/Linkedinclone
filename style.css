@@ -1,0 +1,459 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color: hsl(60, 20%, 90%);
+}
+.main-cantainer{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-right: -95PX;
+}
+.search{
+    width: 240px;
+    height: 30px;
+    margin-right: 80PX;
+}
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-left: 40px;
+}
+
+.list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the text under the icon */
+}
+.list li:hover {
+    text-decoration: underline;
+     cursor: pointer;
+     background-color:transparent ;
+     font-size: 30px;
+}
+.list li i, .list li img {
+    font-size: 24px; /* Adjust icon size */
+    margin-bottom: 5px; /* Space between icon and text */
+}
+
+.list li span {
+    font-size: 14px; /* Adjust text size */
+}
+.image1{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+.boxsec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 0 010px 0;
+    margin-top: 5px;
+}
+.leftbox{
+    /* border: px solid black; */
+    width: 350px;
+    height: 255px;
+    position: relative;
+    right: auto;
+    box-shadow: 0 0 5px 5px gainsboro;
+    background-color: white;
+    box-shadow: 0 0 5px 5px gainsboro;
+}
+.linkedimg{
+    width: 350px;
+    object-fit: cover;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    /* border: 1px solid rgb(100, 88, 71); */
+    width: 350px;
+    height: 60px;
+    position: relative;
+    right:125px ;
+    bottom: 5px;
+    box-shadow: 0 0 5px 5px gainsboro;
+    background-color: white;
+}
+.content2 p {
+    position: relative;
+    left: 5px;
+    font-size: 12px; 
+    color: rgb(96, 100, 100); 
+    padding: 0; 
+}
+.content2 h1 {
+    position: relative; 
+    font-size: 30px;  
+    padding: 5px;
+}
+.icon2{
+    /* border: 1px solid rgb(100, 88, 71); */
+    width: 340px;
+    height: 90px;
+    position: relative;
+    bottom: 10px;
+    right:125px ;
+    margin-top: 5px;
+    padding: 5px;
+    box-shadow: 0 0 5px 5px gainsboro;
+    background-color: white;
+}
+ 
+ul{
+    list-style: none;
+}
+li{
+    font-size: 25px;
+}
+li :hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-color:transparent ;
+    font-size: 15px;
+
+}
+
+.image2{
+    width: 350px;
+}
+.profile1{
+     border-radius: 50%;
+     width: 100px;
+     height: 100px;
+     position: relative;
+     bottom: 25px;
+     margin: auto;
+     border: 2px solid white;
+
+}
+.head1{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 32px;
+    padding: 2px;
+    margin: 0;    
+}
+.para1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    width: 240px;
+    color: rgb(96, 100, 100);
+
+}
+.discrib{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    position: relative;
+    bottom: 30px;
+    right: 60px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.rightbox {
+    /* border: 1px solid black; */
+    width: 390px;
+    height: 450px; /* Fixed height hata kar auto kar diya */
+    padding: 10px;
+    margin: 0 0 10px 0;
+    box-shadow: 0 0 5px 5px gainsboro;
+    background-color: white;
+    box-shadow: 0 0 5px 5px gainsboro;
+}
+
+.head3 h1 {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+/* Adjusting the profile card layout */
+.image2 {
+    display: flex;
+    align-items: center; /* Align items horizontally */
+    padding: 10px 0;
+    margin-bottom: 15px; /* Add space between profile cards */
+    border-bottom: 1px solid #ddd; /* Optional: line between items */
+    gap: 15px; /* Space between elements in each card */
+}
+
+/* Profile Image Styling */
+.img2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.img2 :hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: transpare ;
+}
+
+/* Text and Button styling */
+.head4 {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+}
+
+.describ4 {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Follow Button Styling */
+.btn1 {
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: auto; /* Moves the button to the far right */
+}
+.btn1:hover{
+    background-color: green;
+    color:red ;
+    cursor: pointer;
+}
+
+.topcenter-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px  solid black; */
+    width: 600px;
+    height: 800px;
+    position: relative;
+    bottom: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0; 
+    box-shadow: 0 0 5px 5px gainsboro;
+    background-color: white;
+}
+.center-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 600px;
+    height: 120px;
+    padding: auto;
+    margin: 0;
+    background-color: white;
+    box-shadow: 0 0 5px 5px gainsboro;
+}
+.img-center{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding:auto;
+    position: relative;
+    right: 40px;
+    margin-left: 50px ;
+    border: 2px solid black;
+}
+.pro-center{
+    /* border: 1px solid black; */
+    width: 600px;
+    height: auto;
+    box-shadow: 0 0 5px 5px gainsboro;
+}
+.searchbar-center{
+width: 450px;
+height: 40px;
+border-radius: 20px;
+position: relative;
+bottom: 40px;
+right: 35px;
+}
+.center-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+ul.center-icon{
+    list-style: none;
+    align-items: center;
+
+}
+.iconlist1{
+    color: rgb(102, 102, 161);
+    font-size: 15px;
+    margin-bottom: 80px;
+
+}
+.iconlist2{
+    color:rgb(105, 65, 65) ;
+    font-size: 15px;
+    margin-bottom: 80px;
+
+}
+.iconlist3{
+    color: rgb(255, 165, 0);
+    font-size: 15px;
+    margin-bottom: 80px;
+
+}
+.sugestion-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+.sugestion-bar h2{
+    display: start;
+    font-size: 30px;
+    align-items: start;
+    position: relative;
+    right:  10px;
+    padding: auto;
+}
+.iconlisttree{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 420px;
+}
+.center-profile1 {
+    display: flex;
+    flex-direction: column; /* Image ko naye line pe start karne ke liye vertical direction */
+    justify-content: space-between;
+    align-items: start; /* Center mein rakhne ke liye */
+    margin-top:65px ;
+    position: relative;
+    right: 180px;
+    width: 380px;
+    height: 140px;
+}
+
+.image-center {
+    border-radius: 50%;
+    width: 60px; /* Image ka width */
+    height: 60px; /* Image ka height */
+    border: 1px solid black;
+    position: relative;
+    bottom: 30px;
+
+} 
+.center-head{
+    position: relative;
+    bottom: 95px;
+    left: 75px;
+}
+h3.center-head {
+    color: rgb(145, 145, 145);
+}
+.center-para{
+    position: relative;
+    bottom: 90px;
+    left: 60px;
+}
+.main-coverbox{
+    width: 600px;
+    height: 800px;
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: 75px;
+    box-shadow: 0 0 5px 5px gainsboro;
+}
+.centercoverimg{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+   
+}
+.centercover{
+    width: 600px;
+    height: 400px;
+}
+.iconcover-sec{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 0;
+margin: 0;
+background-color: white;
+}
+.iconlast{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 5px;
+    padding: 20px;
+    gap: 55px;
+}
+.commentbar{
+    width: 580px;
+    height: auto;
+    /* border: 1px solid; */
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 5px 5px gainsboro;
+
+}
+.centercomment-img{
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    
+}
+.centerbar-comment{
+    width: 400px;
+    height: 40px;
+    position: relative;
+    bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gainsboro;
+}
+.btncenter{
+    position: relative;
+    bottom: 40px;
+    width: 80px;
+    height: 40px;
+    background-color: #084908;
+    border-radius: 20px;
+    color: #ddd;
+}
+.btncenter:hover{
+    color: red;
+    cursor: pointer;
+    background-color: hsl(201, 81%, 17%);
+}
